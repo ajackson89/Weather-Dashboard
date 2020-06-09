@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Style Page Link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+        <H1>Weather Dashboard</H1>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Search for a city:</h3>
+                <div class="search-container">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" id="searchBar" type="search" placeholder="Search"></br>
+                        <button class="btn btn-success my-2 my-sm-0" id="citySearch" type="submit">Search</button>
+                    </form></br>
+                </div>
+                <table class="table table-bordered table-condensed table-hover">
+                    <tbody>
+                        <tr class="table-row">
+                            <td>Austin</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Chicago</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>New York</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Orlando</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>San Francisco</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Seattle</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Denver</td>
+                        </tr>
+                        <tr class="table-row">
+                            <td>Atlanta</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-9 weather-info">
+                <div class="forecast">
+                    <H3 id="location" class="text">City, COUNTRY</H3>
+                    <div id="temperature">Temperature:</div>
+                    <div id="humidity">Humidity:</div>
+                    <div id="wind-speed">Wind Speed:</div>
+                    <div id="UV-index">UV index:</div>
+                </div></br>
+                <div class="forcast2">
+                    <H3>5-Day Forcast:</H3>
+                    <div class="card-group">
+                        <div class="card-deck">
+                            <div class="card ">
+                                <div class="card-body text-center bg-primary">
+                                    <div class="card-date" id="date1">Date:</div>
+                                    <div src="images/icon.png" id="weatherIcon1"></div>
+                                    <div class="card-text" id="temparatureCard1">Temp:</div>
+                                    <div class="card-text" id="humidityCard1">Humidity:</div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body text-center bg-primary">
+                                    <div class="card-date" id="date2">Date:</div>
+                                    <div src="images/icon.png" id="weatherIcon2"></div>
+                                    <div class="card-text" id="temparatureCard2">Temp:</div>
+                                    <div class="card-text" id="humidityCard2">Humidity:</div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body text-center bg-primary">
+                                    <div class="card-date" id="date3">Date:</div>
+                                    <div src="images/icon.png" id="weatherIcon3"></div>
+                                    <div class="card-text" id="temparatureCard3">Temp:</div>
+                                    <div class="card-text" id="humidityCard3">Humidity:</div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body text-center bg-primary">
+                                    <div class="card-date" id="date4">Date:</div>
+                                    <div src="images/icon.png" id="weatherIcon4"></div>
+                                    <div class="card-text" id="temparatureCard4">Temp:</div>
+                                    <div class="card-text" id="humidityCard4">Humidity:</div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body text-center bg-primary">
+                                    <div class="card-date" id="date5">Date:</div>
+                                    <div src="images/icon.png" id="weatherIcon5"></div>
+                                    <div class="card-text" id="temparatureCard5">Temp:</div>
+                                    <div class="card-text" id="humidityCard5">Humidity:</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- Footer -->
+     <!-- <footer class="page-footer font-small bg-dark pt-4">
+        Footer Links
+        <div class="container-fluid text-center text-md-left">
+                    Grid row -->
+            <!-- <div class="row"> -->
+                <!-- Grid column -->
+                <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
+                    <!-- Content -->
+                    <!-- <h5 class="text-uppercase">Weather Dashboard</h5> -->
+                    <!-- <p>This page was made as a project and not considered a continuous source of weather.</p> -->
+                <!-- </div> -->
+                <!-- Grid column -->
+                <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
+                <!-- Grid column -->
+                <!-- <div class="col-md-2 mb-md-0 mb-3"> -->
+                    <!-- Links -->
+                    <!-- <h5 class="text-uppercase">Solid Sources</h5> -->
+
+                    <!-- <ul class="list-unstyled"> -->
+                        <!-- <li>
+                            <a href="https://weather.com/">weather.com</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wunderground.com/">wunderground.com</a>
+                        </li>
+                    </ul>
+                </div> -->
+                <!-- Grid column -->
+            <!-- </div> -->
+            <!-- Grid row -->
+        <!-- </div> -->
+        <!-- Footer Links -->
+        <!-- Copyright -->
+        <!-- <div class="footer-copyright text-center py-3">© 2020 Copyright
+        </div> -->
+        <!-- Copyright -->
+    <!-- </footer> -->
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

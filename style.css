@@ -1,0 +1,82 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.navbar H1{
+    color: white;
+}
+
+body {
+    /* background-image: url("images/weather3.jpg"); */
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: inherit;
+}
+
+.form-control {
+    font-size: 16px;
+}
+
+.col-md-3 {
+    background-color: white;
+} 
+
+.table {
+    font-size: 18px;
+    margin-right: 0px;
+}
+
+.col-md-9 {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.forecast {
+    border: solid 1px black;
+    padding: 20px;
+}
+
+.card-date {
+    text-align: center;
+    text-shadow: white;
+    color: white;
+    font-weight: 500;
+}
+
+.card-img {
+    align-items: center;
+}
+
+.card-text {
+    text-align: center;
+    text-shadow: black;
+    color: white;
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0;
+    height: 200px;
+}
+
+
+
+.page-footer h5 {
+    color: white;
+}
